@@ -30,7 +30,7 @@ export default function App() {
     setResponse(null);
 
     try {
-      const response = await fetch("http://100.71.20.40:5000/classify", {
+      const response = await fetch("http://127.0.0.1:5000/classify", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
